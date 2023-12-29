@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - My Blog</title>
+</head>
+<body>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+
+        <form action="/submit-contact" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button  class="btn"  type="submit">Send Message</button>
+        </form>
+
+        <address>
+            <br>
+            <br>
+            <p>Email: <a href="mailto:query@myblog.com">query@myblog.com</a></p>
+            <p>Phone: +91 (86-321-47)</p>
+            <p>Address: 12 Main Street, City, State, Zip</p>
+        </address>
+    </section>
+
+</body>
+</html>
